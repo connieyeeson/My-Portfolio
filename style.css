@@ -5,6 +5,7 @@
 
 body {
     background-color: gray;
+    padding: 5px;
 }
 
 .homePage {
@@ -20,7 +21,7 @@ body {
     display: flex;
     padding: 10px;
     width: 400px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .homePage span nav {
@@ -38,11 +39,43 @@ body {
 
 .bioPage span {
 
-    background-color:rgb(5, 5, 75);
-    width: 500px;
-    margin: 10px;
-
-
+    /* background-color:rgb(5, 5, 75); */
+    width: 32%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.2rem;
+    justify-content: center;
 }
 
+
+ .bioPage img {
+
+    display: flex;
+    align-self: center;
+    border-radius: 50%;
+    border: 2px white solid;
+}
+
+
+  .imageBar {
+
+    background-color: ;
+}
+
+ .linkBar  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 150px;
+    margin: 60px;
+} 
+
+.linkBar svg {
+
+    width: 20px;
+    cursor: pointer;
+    fill: rgb(9, 9, 68);
+}
 
