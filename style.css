@@ -70,11 +70,12 @@ body {
     justify-content: space-evenly;
     width: 150px;
     margin: 60px;
+    align-items: center;
 } 
 
 .linkBar svg {
 
-    width: 20px;
+    width: 25px;
     cursor: pointer;
     fill: rgb(9, 9, 68);
 }
